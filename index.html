@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My life</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="content-wrapper header-nav">
+            <h1>My life</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#study">Study</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="mainvisual">
+        <div class="slide" id="makeImg">
+            <img src="./images/image01.jpg" alt="">
+            <img src="./images/image02.JPG" alt="">
+            <img src="./images/image03.jpg" alt="">
+            <img src="./images/image04.jpg" alt="">
+        </div>
+        <div class="bg1"></div>
+    </section>
+    <section class="Profile" id="profile">
+        <div class="content-wrapper">
+            <div class="contents">
+                <figure>
+                    <img src="./images/Profile.jpg" alt="" class="imgprof" >
+                </figure>
+                <div class="content">
+                    <h2>Profile</h2>
+                    <div class="profile-text">
+                            <h3>現在の所属</h3>
+                            <div class="profile-texts">
+                            <p> 愛知工業大学 情報科学部 情報科学科</p>
+                            </div>
+                            <h3>趣味</h3>
+                            <div class="profile-texts"></div>
+                            <p>ドライブ 映画館 ゲーム</p> 
+                           </div>
+                            <h3>大学生活で学んだこと。</h3>
+                                <div class="profile-texts">
+                                <p>大学生活では、様々な情報技術について学んできました。webのプログラミング、3Dモデリング、画像、動画編集などを学んできました。
+                                </p>
+                               </div>
+                            <h3>1年後、10年後の自分の姿や実現したいこと</h3>
+                                <div class="profile-texts"> <p>1年間は、社会人そしてプロのクリエイターとしてビジネスマナーやお仕事の基礎を実際の業務の中でしっかり学びたいと考えています。そしてwebのプログラムやデザインをメインに自分に技術、知識にプライドを持てるような人材に10年後なりたいと考えております</</p>
+                                </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="study-visual" id="study">
+        <h1>study</h1>
+    </section>
+    <section class="study01">
+        <dl>
+            <dt>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./images/デッサン01.jpg" alt="Swiper01"></div>
+                      <div class="swiper-slide"><img src="./images/デッサン02.jpg" alt="Swiper02"></div>
+                      <div class="swiper-slide"><img src="./images/モデリング01.jpg" alt="Swiper03"></div>
+                      <div class="swiper-slide"><img src="./images/モデリング02.jpg" alt="Swiper03"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-end"></div>
+                  </div>
+                  <script src="js/swiper.js"></script>
+                  <script>
+                      var swiper = new Swiper('.swiper-container', {
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        loop: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'progressbar',
+                            clickable: true,
+                            },
+                        });
+                  </script>
+            </dt>
+            <dd>
+                <h2>デッサンとモデリング</h2>
+                <p>
+                    デッサンとモデリングでは様々な作品を作りました。<br>
+                    その中でもお気に入りなのがこの４作品です。デッサンは初めての経験で初めて描いたのが２枚目のりんごです。まずは外型から描き始めて何度も修正をおこなって完成させました。<br>
+                    モデリングでは、ビデオレコーダーと化粧品が掲載されています。色がはみ出さないように補助テープを何度も貼って剥がしてを繰り返して、とても繊細な作業が多く大変でした。４枚目の化粧品は一番綺麗にできたと思っています。<br>
+                    初めてすることが多く作品作りをする楽しさと大変さを経験しました。
+                </p>
+            </dd>
+        </dl>
+    </section>
+    <section class="study02">
+        <dl>
+            <dt><img src="./video/study02.png" alt=""></dt>
+            <dd>
+                <h2>CGプログラミング</h2>
+                <p>
+                    CGプログラミングではC言語を使用して様々なオブジェクトを形成しちょっとしたゲーム？のようなものを制作しました。<br>
+                    掲載動画では、人のオブジェクトが走り回ってボールにぶつかったらゲームオーバーになります。クリアはありません、、。ボールの起動や箱の配置などエラーが起きないように何度も修正するのがとても大変でした。<br>
+                    C言語を使用してたくさんのことを学び、たくさん色々なことができると感じました。<br>
+                </p>
+            </dd>
+        </dl>
+    </section>
+    <section class="study03">
+        <dl>
+            <dt><img src="./video/study03.png"></dt>
+            <dd>
+                <h2>動画制作</h2>
+                <p>
+                   料理を作るストップモーション動画を制作しました。<br>
+                    コンセプトは大学生が初めてチャーハン作りに挑戦するというものです。<br>
+                    1コマ1コマ、家族に協力してもらい制作しました。動画編集を学ぶことができ、何回も確認しながら動画制作することは大変でしたが
+                    楽しかったです。<br>
+                   
+                </p>
+            </dd>
+        </dl>
+    </section>
+    <section class="study04">
+        <dl>
+            <dt>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./images/maya01.jpg" alt="Swiper01"></div>
+                      <div class="swiper-slide"><img src="./images/maya02.jpg" alt="Swiper02"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                  <script src="js/swiper.js"></script>
+                  <script>
+                      var swiper = new Swiper('.swiper-container', {
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        loop: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'progressbar',
+                            clickable: true,
+                            },
+                        });
+                  </script>
+            </dt>
+            <dd>
+                <h2>MAYA</h2>
+                <p>
+                    Mayaではモデリング、レンダリング、アニメーションを制作しました。<br>
+                    1枚目の作品はオーブントースターで本物の見せるため、レンタリングの作業に力を注ぎました。
+                    内部の網の部分や受け皿の質感に自信があります。
+                    2枚目は、講義で作りました。画像を貼り付けて制作したのですが、画像を合わせる作業に苦労しました。
+                    Mayaの講義で３D モデリングを制作する大変さ、楽しさを学びました。そして完成した時の達成感はとても
+                    感動しました。
+                </p>
+            </dd>
+        </dl>
+    </section>
+    <footer class="footer">
+        <section class="content-wrapper">
+            <div class="high">
+                <h1>MY life</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#study">Study</a></li>
+                </ul>
+            </div>
+            <div class="low">
+                <label>
+                    愛知工業大学 情報科学部 情報科学科 メディア情報専攻<br>
+                    菱田研究室所属<br>
+                    平岡　汰一（ひらおか　たいち）<br>
+                    メールアドレス:x17086xx@aitech.ac.jp<br>
+                </label>
+            </div>
+            <p>&copy;My life Co.,Ltd.</p>
+        </section>
+    </footer>
+</body>
+</html>
